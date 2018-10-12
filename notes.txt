@@ -1,0 +1,6 @@
+float to double
+code style {}
+input - return value of scanf; defines for "isnan" constructions
+switches and if's
+defines as flags - INFINITE_ROOTS...
+spacing

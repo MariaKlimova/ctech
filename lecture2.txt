@@ -1,0 +1,33 @@
+отсортировать Онегина по строчкам по алфавиту
+в одном файле:
+отсортированный по алфавиту с начала строк
+с конца строк
+оригинал
+
+знаки препинания пропускать
+
+
+calloc (??, sizeof(char)); выделяет память
+
+printf("%s\n", text[i]);
+
+ferror
+
+int nStr = 0;
+FILE* f = fopen("Marshak.txt","r");
+char** txt = ReadText(f, NULL);
+
+char** ReadText(File* file, int* nstrings)
+  {
+   //проверка на корректнось и не 0 файла
+  char* text = calloc(???, sizeof(char));
+  int i = 0;
+  while (!feof(file))
+    {
+    char str [BUFSIZE] = "";
+    fgets(str, BUFSIZE, file);
+    text[i++] = str'
+    }
+  if (nStrings)*nString=i;
+  return text;
+  }
